@@ -14,3 +14,7 @@ keymap.set("n", "<F8>", ":MarkdownPreview<CR>", { noremap = true, silent = true,
 -- 调整ctrl+u/d的翻页范围，更人性化一点
 keymap.set("n", "<C-u>", "9k", opt)
 keymap.set("n", "<C-d>", "9j", opt)
+-- Adjust key mappings related to auto-completion
+-- vim.api.nvim_set_keymap("i", "<C-Enter>", "<C-x><C-o>", { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("i", "<Tab>", "<C-n>", { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("i", "<CR>", "<CR><Esc>o", { noremap = true, silent = true })
