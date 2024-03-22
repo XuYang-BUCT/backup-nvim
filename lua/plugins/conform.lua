@@ -6,6 +6,8 @@ return {
       formatters_by_ft = {
         ["c++"] = { "clang-format" },
         ["python"] = { "black" },
+        ["cmake"] = { "cmakelang" },
+        ["arduino"] = { "clang-format" },
       },
     },
   },
